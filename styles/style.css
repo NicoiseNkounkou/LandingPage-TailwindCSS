@@ -525,52 +525,6 @@ video {
   position: relative;
 }
 
-.inset-4 {
-  top: 1rem;
-  right: 1rem;
-  bottom: 1rem;
-  left: 1rem;
-}
-
-.inset-6 {
-  top: 1.5rem;
-  right: 1.5rem;
-  bottom: 1.5rem;
-  left: 1.5rem;
-}
-
-.right-1\.5 {
-  right: 0.375rem;
-}
-
-.right-1 {
-  right: 0.25rem;
-}
-
-.left-1\.5 {
-  left: 0.375rem;
-}
-
-.left-1 {
-  left: 0.25rem;
-}
-
-.left-3 {
-  left: 0.75rem;
-}
-
-.right-5 {
-  right: 1.25rem;
-}
-
-.right-14 {
-  right: 3.5rem;
-}
-
-.right-52 {
-  right: 13rem;
-}
-
 .right-96 {
   right: 24rem;
 }
@@ -587,24 +541,16 @@ video {
   height: 100vh;
 }
 
+.h-\[60rem\] {
+  height: 60rem;
+}
+
+.h-\[57rem\] {
+  height: 57rem;
+}
+
 .w-screen {
   width: 100vw;
-}
-
-.w-5 {
-  width: 1.25rem;
-}
-
-.w-14 {
-  width: 3.5rem;
-}
-
-.w-6 {
-  width: 1.5rem;
-}
-
-.w-10 {
-  width: 2.5rem;
 }
 
 .w-96 {
@@ -647,14 +593,6 @@ video {
   gap: 3.5rem;
 }
 
-.border {
-  border-width: 1px;
-}
-
-.border-4 {
-  border-width: 4px;
-}
-
 .border-b-4 {
   border-bottom-width: 4px;
 }
@@ -668,6 +606,14 @@ video {
   background-image: url('../images/mobile/image-header.jpg');
 }
 
+.bg-cherry {
+  background-image: url('../images/mobile/image-graphic-design.jpg');
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
 .bg-center {
   background-position: center;
 }
@@ -676,33 +622,28 @@ video {
   background-repeat: no-repeat;
 }
 
-.p-2\.5 {
-  padding: 0.625rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
 .p-6 {
   padding: 1.5rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.pt-3 {
-  padding-top: 0.75rem;
-}
-
 .pt-11 {
   padding-top: 2.75rem;
+}
+
+.pb-11 {
+  padding-bottom: 2.75rem;
+}
+
+.pt-96 {
+  padding-top: 24rem;
+}
+
+.pt-\[40rem\] {
+  padding-top: 40rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
 }
 
 .text-center {
@@ -719,6 +660,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -732,6 +678,11 @@ video {
 .text-gray-600 {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.text-emerald-800 {
+  --tw-text-opacity: 1;
+  color: rgb(6 95 70 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {

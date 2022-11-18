@@ -5,7 +5,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         'header': "url('../images/mobile/image-header.jpg')",
+        'cherry': "url('../images/mobile/image-graphic-design.jpg')",
       }
+
+    
     },
   },
   plugins: [],
