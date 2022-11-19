@@ -7,6 +7,7 @@ module.exports = {
         'header': "url('../images/mobile/image-header.jpg')",
         'cherry': "url('../images/mobile/image-graphic-design.jpg')",
         'fruit': "url('../images/mobile/image-photography.jpg')",
+        'computerHeader': "url('../images/desktop/image-header.jpg')",
       }
 
     

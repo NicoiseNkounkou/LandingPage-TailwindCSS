@@ -525,76 +525,16 @@ video {
   position: relative;
 }
 
-.right-96 {
-  right: 24rem;
-}
-
-.top-60 {
-  top: 15rem;
-}
-
-.right-\[\] {
-  right: ;
-}
-
-.right-\[50\] {
-  right: 50;
+.bottom-\[14rem\] {
+  bottom: 14rem;
 }
 
 .right-\[50\%\] {
   right: 50%;
 }
 
-.left-\[50\%\] {
-  left: 50%;
-}
-
-.top-\[10rem\] {
-  top: 10rem;
-}
-
-.bottom-\[10rem\] {
-  bottom: 10rem;
-}
-
-.bottom-\[rem\] {
-  bottom: rem;
-}
-
-.bottom-\[30rem\] {
-  bottom: 30rem;
-}
-
-.bottom-\[60rem\] {
-  bottom: 60rem;
-}
-
-.bottom-\[50rem\] {
-  bottom: 50rem;
-}
-
-.bottom-\[40rem\] {
-  bottom: 40rem;
-}
-
-.bottom-\[16rem\] {
-  bottom: 16rem;
-}
-
-.bottom-\[14rem\] {
-  bottom: 14rem;
-}
-
 .left-\[45\%\] {
   left: 45%;
-}
-
-.mb-\[11rem\] {
-  margin-bottom: 11rem;
-}
-
-.mb-\[8rem\] {
-  margin-bottom: 8rem;
 }
 
 .mb-\[5rem\] {
@@ -613,6 +553,14 @@ video {
   height: 57rem;
 }
 
+.h-auto {
+  height: auto;
+}
+
+.h-\[13rem\] {
+  height: 13rem;
+}
+
 .h-\[60rem\] {
   height: 60rem;
 }
@@ -625,16 +573,20 @@ video {
   height: 20rem;
 }
 
-.h-\[50rem\] {
-  height: 50rem;
-}
-
-.h-\[13rem\] {
-  height: 13rem;
-}
-
 .w-screen {
   width: 100vw;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-\[4rem\] {
+  width: 4rem;
+}
+
+.w-\[50\%\] {
+  width: 50%;
 }
 
 .w-96 {
@@ -655,14 +607,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[30rem\] {
-  width: 30rem;
-}
-
-.w-\[4rem\] {
-  width: 4rem;
 }
 
 .grow {
@@ -705,18 +649,6 @@ video {
   gap: 12rem;
 }
 
-.gap-\[10rem\] {
-  gap: 10rem;
-}
-
-.gap-\[11rem\] {
-  gap: 11rem;
-}
-
-.gap-\[5rem\] {
-  gap: 5rem;
-}
-
 .gap-\[3rem\] {
   gap: 3rem;
 }
@@ -732,16 +664,6 @@ video {
 .border-b-amber-500 {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(245 158 11 / var(--tw-border-opacity));
-}
-
-.bg-emerald-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(4 120 87 / var(--tw-bg-opacity));
-}
-
-.bg-emerald-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(16 185 129 / var(--tw-bg-opacity));
 }
 
 .bg-emerald-400 {
@@ -777,16 +699,20 @@ video {
   padding: 1.5rem;
 }
 
-.p-\[11rem\] {
-  padding: 11rem;
+.pl-\[29rem\] {
+  padding-left: 29rem;
 }
 
-.pt-11 {
-  padding-top: 2.75rem;
+.pt-\[1\.75rem\] {
+  padding-top: 1.75rem;
 }
 
 .pb-11 {
   padding-bottom: 2.75rem;
+}
+
+.pt-11 {
+  padding-top: 2.75rem;
 }
 
 .pt-\[40rem\] {
@@ -829,24 +755,13 @@ video {
   padding-top: 2rem;
 }
 
-.pt-3 {
-  padding-top: 0.75rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
-}
-
-.pt-\[1\.75rem\] {
-  padding-top: 1.75rem;
-}
-
-.pb-\[11rem\] {
-  padding-bottom: 11rem;
-}
-
 .text-center {
   text-align: center;
+}
+
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
 }
 
 .text-6xl {
@@ -862,11 +777,6 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
 }
 
 .text-white {
@@ -900,17 +810,119 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:visible {
-    visibility: visible;
+  .md\:h-\[39rem\] {
+    height: 39rem;
+  }
+
+  .md\:h-\[35rem\] {
+    height: 35rem;
+  }
+
+  .md\:bg-none {
+    background-image: none;
+  }
+
+  .md\:pt-0 {
+    padding-top: 0px;
   }
 }
 
 @media (min-width: 1024px) {
+  .lg\:visible {
+    visibility: visible;
+  }
+
   .lg\:invisible {
     visibility: hidden;
   }
 
+  .lg\:bottom-\[12rem\] {
+    bottom: 12rem;
+  }
+
+  .lg\:right-\[45\%\] {
+    right: 45%;
+  }
+
+  .lg\:left-\[50\%\] {
+    left: 50%;
+  }
+
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:h-\[11rem\] {
+    height: 11rem;
+  }
+
+  .lg\:w-\[3rem\] {
+    width: 3rem;
+  }
+
+  .lg\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .lg\:w-\[14rem\] {
+    width: 14rem;
+  }
+
+  .lg\:w-\[\] {
+    width: ;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .lg\:items-center {
+    align-items: center;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
+  .lg\:gap-5 {
+    gap: 1.25rem;
+  }
+
+  .lg\:gap-\[7\.2rem\] {
+    gap: 7.2rem;
+  }
+
+  .lg\:bg-computerHeader {
+    background-image: url('../images/desktop/image-header.jpg');
+  }
+
+  .lg\:bg-cover {
+    background-size: cover;
+  }
+
+  .lg\:pt-\[43rem\] {
+    padding-top: 43rem;
+  }
+
+  .lg\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .lg\:text-\[4rem\] {
+    font-size: 4rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
