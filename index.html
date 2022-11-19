@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/style.css">
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
@@ -16,24 +18,27 @@
   </style>
 </head>
 <body>
-  <section class="w-screen bg-header h-screen bg-no-repeat  h-[57rem] md:h-[35rem] md:bg-none lg:bg-computerHeader lg:bg-cover p-6 bg-contain relative">
+  <section class="w-screen bg-header h-screen bg-no-repeat  h-[57rem] md:h-[35rem] md:bg-none lg:bg-computerHeader lg:bg-cover p-6 bg-cover relative">
    
     <nav class="flex flex-row justify-between items-center ">
-      <div class="">
-         <img class="h-auto w-auto"src="./images/logo.svg" alt="">
-     </div>
-     <div class="invisible lg:visible pl-[29rem] lg:flex flex-row gap-5 justify-end"> 
+      
+         <img class="h-auto w-auto "src="./images/logo.svg" alt="">
+         
+     
+     <div class="invisible lg:visible pl-[29rem] lg:flex flex-row gap-5 text-white justify-end items-center"> 
          <p> About</p>
          <p> Services</p>
          <p> Projects</p>
-         <p> Contact</p>
+         <div class="rounded-full bg-white ">
+         <p class="text-black font-bold p-2 items-center"> Contact</p>
+        </div>
      </div>
-     <div class="lg:invisible">
-      <img class=" z-5" src="./images/icon-hamburger.svg" alt="">
-     </div>
+     
+      <img class=" h-auto w-auto pr-[20rem] lg:invisible absolute left-[35.25rem]" src="./images/icon-hamburger.svg" alt="">
+    
    </nav>
-   <p class=" text-white text-9xl text-center pt-[1.75rem] lg:text-[4rem]">We are creatives</p> 
-   <img class="absolute w-[4rem] lg:w-[3rem] h-[13rem] lg:h-[11rem] bottom-[14rem] lg:bottom-[12rem] right-[50%] lg:right-[45%] left-[45%] lg:left-[50%]" src="./images/icon-arrow-down.svg" alt="">
+   <p class=" text-white text-9xl text-center pt-[1.75rem] lg:pt-[5.75rem] lg:text-[4rem] font-fraunces">We are creatives</p> 
+   <img class="absolute w-[4rem] lg:w-[2rem] h-[13rem] lg:h-[6rem] bottom-[14rem] lg:bottom-[12rem] right-[50%] lg:right-[45%] left-[45%] lg:left-[50%]" src="./images/icon-arrow-down.svg" alt="">
  
 </section> 
 
@@ -43,7 +48,7 @@
       
  
 <section class="w-[50%] flex flex-col items-center justify-center gap-14 pb-11" > 
-   <h1 class=" text-6xl lg:text-3xl text-indigo-900 text-center pt-11 ">Transform your brand</h1>
+   <h1 class=" text-6xl lg:text-3xl text-indigo-900 text-center pt-11 font-fraunces ">Transform your brand</h1>
 
    <p class="text-center text-3xl lg:text-xl text-gray-600 w-96 "> We are a full-service creative agency specializing in helping brands grow fast. 
    Engage your clients through compelling visuals that do most of the marketing for you.</p>
@@ -58,25 +63,25 @@
 
  <section class="w-[50%] flex flex-col items-center justify-center gap-14 lg:pt-0"> 
     
-   <h1 class=" text-6xl lg:text-3xl text-indigo-900 text-center pt-11  "> Stand out to the right audience</h1>
+   <h1 class=" text-6xl lg:text-3xl text-indigo-900 text-center pt-11 font-fraunces "> Stand out to the right audience</h1>
 
   <p class="text-center text-3xl lg:text-xl text-gray-600 w-96"> Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
 
-  <p class="text-lg text-indigo-900 border-b-amber-500 border-b-4 mb-[5rem] ">Learn more</p> 
+  <p class="text-lg text-indigo-900 border-b-red-800 border-b-4 mb-[5rem] ">Learn more</p> 
  </section>
 </nav>
 
 <nav class="flex  flex-col justify-center items-center lg:flex-row">
- <section class=" lg:w-[50%] w-full bg-cherry  bg-no-repeat h-[60rem]">
+ <section class=" lg:w-[50%] w-full bg-cherry bg-no-repeat h-[60rem]">
    <div class="flex flex-col items-center justify-center gap-14  pt-[40rem]">
-     <h1 class="text-6xl text-emerald-800 text-center pt-11"> Graphic design</h1>
+     <h1 class="text-6xl text-emerald-800 text-center pt-11 font-fraunces"> Graphic design</h1>
      <p class="text-emerald-800 text-center w-96"> Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
    </div>
  </section>
 
  <section class=" lg:w-[50%] w-full bg-fruit bg-no-repeat  h-[60rem] ">
    <div class="flex flex-col items-center justify-center gap-14">
-      <h1 class=" text-6xl text-sky-900 pt-[45rem] lg:pt-[43rem]"> Photography</h1>
+      <h1 class=" text-6xl text-sky-900 pt-[45rem] lg:pt-[43rem] font-fraunces"> Photography</h1>
      <p class="text-sky-900 text-center w-96"> Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
    </div>
   </section>
@@ -84,7 +89,7 @@
 
 <section class="flex flex-col items-center justify-center">
    <div>
-     <p class="text-gray-500 text-lg pt-11 pb-11 ">Client testimonials</p> 
+     <p class="text-gray-500 text-lg pt-11 pb-11 font-barlow ">CLIENT TESTIMONIALS</p> 
    </div>
 
    <nav class="lg:flex lg:flex-row lg:items-center lg:justify-between lg:gap-[7.2rem]">
@@ -97,7 +102,7 @@
      <p class="pt-11 pb-3 text-center w-[26rem] lg:w-[14rem]"> We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
    </div>
    <div>
-      <p class="pt-11 pb-2 "> Emily R.</p>
+      <p class="pt-11 pb-2 text-lg text-indigo-900 font-fraunces "> Emily R.</p>
    </div>   
    <div>
       <p class="pb-16"> Marketing Director</p>
@@ -112,7 +117,7 @@
       <p class="pt-11 pb-3 text-center w-[26rem] lg:w-[14rem]"> Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
    </div>
    <div> 
-     <p class="pt-11 pb-2"> Thomas S.</p>
+     <p class="pt-11 pb-2 text-lg text-indigo-900 font-fraunces"> Thomas S.</p>
    </div>
    <div>
      <p class="pb-16"> Chief Operating Officer</p>
@@ -127,7 +132,7 @@
    <p class="pt-11 pb-3 text-center w-[26rem] lg:w-[14rem]">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p> 
  </div>
    <div> 
-   <p class=" pt-11 pb-2 "> Jennie F.</p>
+   <p class=" pt-11 pb-2 text-lg text-indigo-900 font-fraunces"> Jennie F.</p>
    </div>
    <div>
   <p class="pb-16"> Business Owner</p>
@@ -138,21 +143,23 @@
 
 <nav class="lg:flex lg:flex-row lg:items-center">
 <section class="flex flex-row lg:w-[50%] ">
-  <img class="w-3/6" src="./images/mobile/image-gallery-milkbottles.jpg" alt="">
-  <img class="w-3/6"src="./images/mobile/image-gallery-orange.jpg" alt="">
+  <img class="w-3/6 " src="../images/mobile/image-gallery-milkbottles.jpg" alt="">
+  <img class="w-3/6 "src="../images/mobile/image-gallery-orange.jpg" alt="">
+
 </section>
 
 <section class="flex flex-row lg:w-[50%]">
-  <img class="w-3/6"src="./images/mobile/image-gallery-cone.jpg" alt="">
-  <img class="w-3/6"src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="">
+  <img class="w-3/6"src="../images/mobile/image-gallery-cone.jpg" alt="">
+  <img class="w-3/6 "src="../images/mobile/image-gallery-sugar-cubes.jpg" alt="">
+
 </section>
 </nav>
 
 <section class=" h-[20rem] w-full bg-auto bg-emerald-400">
 
-   <h1 class="pt-14 pb-14 text-center">Sunnyside</h1>
+   <h1 class="pt-14 pb-14 text-center text-lg font-barlow">Sunnyside</h1>
 
-  <div class="flex flex-row justify-center gap-[12rem] pb-8">
+  <div class="flex flex-row justify-center gap-[12rem] lg:gap-[5rem] pb-8">
     <p> About</p>
     <p> Services</p>
     <p> Projects</p> 
