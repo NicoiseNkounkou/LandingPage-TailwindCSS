@@ -1,8 +1,10 @@
-<!DOCTYPE html>
+
+
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,600&display=swap" rel="stylesheet">
@@ -11,171 +13,114 @@
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-  <section class="w-screen bg-header h-screen bg-no-repeat  h-[57rem] md:h-[35rem] md:bg-none lg:bg-computerHeader lg:bg-cover p-6 bg-cover relative">
-   
-    <nav class="flex flex-row justify-between items-center ">
-      
-         <img class="h-auto w-auto "src="./images/logo.svg" alt="">
-         
-     
-     <div class="invisible lg:visible pl-[29rem] lg:flex flex-row gap-5 text-white justify-end items-center"> 
-         <p> About</p>
-         <p> Services</p>
-         <p> Projects</p>
-         <div class="rounded-full bg-white ">
-         <p class="text-black font-bold p-2 items-center"> Contact</p>
+  <section class="w-screen bg-header h-screen bg-no-repeat h-[57rem] md:h-[35rem] md:bg-none lg:bg-computerHeader lg:bg-cover p-6 bg-cover relative">
+    <nav class="flex flex-row justify-between items-center">
+      <img class="h-auto w-auto" src="./images/logo.svg" alt="Sunnyside Logo">
+      <div class="invisible lg:visible pl-[29rem] lg:flex flex-row gap-5 text-white justify-end items-center"> 
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Projects</a>
+        <div class="rounded-full bg-white">
+          <a href="#" class="text-black font-bold p-2 items-center">Contact</a>
         </div>
-     </div>
-     
-      <img class=" h-auto w-auto pr-[20rem] lg:invisible absolute left-[35.25rem]" src="./images/icon-hamburger.svg" alt="">
-    
-   </nav>
-   <p class=" text-white text-9xl text-center pt-[1.75rem] lg:pt-[5.75rem] lg:text-[4rem] font-fraunces">We are creatives</p> 
-   <img class="absolute w-[4rem] lg:w-[2rem] h-[13rem] lg:h-[6rem] bottom-[14rem] lg:bottom-[12rem] right-[50%] lg:right-[45%] left-[45%] lg:left-[50%]" src="./images/icon-arrow-down.svg" alt="">
- 
-</section> 
+      </div>
+      <img class="h-auto w-auto pr-[20rem] lg:invisible absolute left-[35.25rem]" src="./images/icon-hamburger.svg" alt="Menu Icon">
+    </nav>
+    <p class="text-white text-9xl text-center pt-[1.75rem] lg:pt-[5.75rem] lg:text-[4rem] font-fraunces">We are creatives</p> 
+    <img class="absolute w-[4rem] lg:w-[2rem] h-[13rem] lg:h-[6rem] bottom-[14rem] lg:bottom-[12rem] right-[50%] lg:right-[45%] left-[45%] lg:left-[50%]" src="./images/icon-arrow-down.svg" alt="Arrow Down Icon">
+  </section> 
 
-<nav class="flex  flex-col justify-center items-center lg:flex-row-reverse">
-
-  <img class="lg:w-[50%]"src="./images/mobile/image-transform.jpg" alt="">
-      
- 
-<section class="w-[50%] flex flex-col items-center justify-center gap-14 pb-11" > 
-   <h1 class=" text-6xl lg:text-3xl text-indigo-900 text-center pt-11 font-fraunces ">Transform your brand</h1>
-
-   <p class="text-center text-3xl lg:text-xl text-gray-600 w-96 "> We are a full-service creative agency specializing in helping brands grow fast. 
-   Engage your clients through compelling visuals that do most of the marketing for you.</p>
-
-   <p class="text-lg  text-indigo-900 border-b-amber-500 border-b-4">Learn more</p> 
-</section>
-</nav>
-
-<nav class="flex  flex-col justify-center items-center lg:flex-row">
-
- <img class="lg:w-[50%] pt-11 lg:pt-0" src="./images/mobile/image-stand-out.jpg" alt="">
-
- <section class="w-[50%] flex flex-col items-center justify-center gap-14 lg:pt-0"> 
-    
-   <h1 class=" text-6xl lg:text-3xl text-indigo-900 text-center pt-11 font-fraunces "> Stand out to the right audience</h1>
-
-  <p class="text-center text-3xl lg:text-xl text-gray-600 w-96"> Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
-
-  <p class="text-lg text-indigo-900 border-b-red-800 border-b-4 mb-[5rem] ">Learn more</p> 
- </section>
-</nav>
-
-<nav class="flex  flex-col justify-center items-center lg:flex-row">
- <section class=" lg:w-[50%] w-full bg-cherry bg-no-repeat h-[60rem]">
-   <div class="flex flex-col items-center justify-center gap-14  pt-[40rem]">
-     <h1 class="text-6xl text-emerald-800 text-center pt-11 font-fraunces"> Graphic design</h1>
-     <p class="text-emerald-800 text-center w-96"> Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
-   </div>
- </section>
-
- <section class=" lg:w-[50%] w-full bg-fruit bg-no-repeat  h-[60rem] ">
-   <div class="flex flex-col items-center justify-center gap-14">
-      <h1 class=" text-6xl text-sky-900 pt-[45rem] lg:pt-[43rem] font-fraunces"> Photography</h1>
-     <p class="text-sky-900 text-center w-96"> Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
-   </div>
+  <section class="flex flex-col justify-center items-center lg:flex-row-reverse">
+    <img class="lg:w-[50%]" src="./images/mobile/image-transform.jpg" alt="Transform your brand image">
+    <div class="w-[50%] flex flex-col items-center justify-center gap-14 pb-11"> 
+      <h1 class="text-6xl lg:text-3xl text-indigo-900 text-center pt-11 font-fraunces">Transform your brand</h1>
+      <p class="text-center text-3xl lg:text-xl text-gray-600 w-96">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+      <a href="#" class="text-lg text-indigo-900 border-b-amber-500 border-b-4">Learn more</a> 
+    </div>
   </section>
-</nav>
 
-<section class="flex flex-col items-center justify-center">
-   <div>
-     <p class="text-gray-500 text-lg pt-11 pb-11 font-barlow ">CLIENT TESTIMONIALS</p> 
-   </div>
-
-   <nav class="lg:flex lg:flex-row lg:items-center lg:justify-between lg:gap-[7.2rem]">
-
-   <nav class="flex flex-col items-center justify-center  pt-10">
-   <div>
-     <img class="rounded-full h-24 w-24  " src="./images/image-emily.jpg" alt="" srcset="">
-   </div>
-   <div>
-     <p class="pt-11 pb-3 text-center w-[26rem] lg:w-[14rem]"> We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
-   </div>
-   <div>
-      <p class="pt-11 pb-2 text-lg text-indigo-900 font-fraunces "> Emily R.</p>
-   </div>   
-   <div>
-      <p class="pb-16"> Marketing Director</p>
-   </div>
-   </nav>
-   
-   <nav class="flex flex-col items-center justify-center pt-10">
-   <div>
-     <img class="rounded-full h-24 w-24" src="./images/image-thomas.jpg" alt="">
-   </div>
-   <div>
-      <p class="pt-11 pb-3 text-center w-[26rem] lg:w-[14rem]"> Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
-   </div>
-   <div> 
-     <p class="pt-11 pb-2 text-lg text-indigo-900 font-fraunces"> Thomas S.</p>
-   </div>
-   <div>
-     <p class="pb-16"> Chief Operating Officer</p>
-  </div>
-</nav>
-
-<nav class="flex flex-col items-center justify-center pt-10">
- <div>
-   <img class="rounded-full h-24 w-24" src="./images/image-jennie.jpg" alt="">
- </div>
- <div>
-   <p class="pt-11 pb-3 text-center w-[26rem] lg:w-[14rem]">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p> 
- </div>
-   <div> 
-   <p class=" pt-11 pb-2 text-lg text-indigo-900 font-fraunces"> Jennie F.</p>
-   </div>
-   <div>
-  <p class="pb-16"> Business Owner</p>
-</div>
-</nav>
-</nav>
-</section>
-
-<nav class="lg:flex lg:flex-row lg:items-center">
-<section class="flex flex-row lg:w-[50%] ">
-  <img class="w-3/6 " src="../images/mobile/image-gallery-milkbottles.jpg" alt="">
-  <img class="w-3/6 "src="../images/mobile/image-gallery-orange.jpg" alt="">
-
-</section>
-
-<section class="flex flex-row lg:w-[50%]">
-  <img class="w-3/6"src="../images/mobile/image-gallery-cone.jpg" alt="">
-  <img class="w-3/6 "src="../images/mobile/image-gallery-sugar-cubes.jpg" alt="">
-
-</section>
-</nav>
-
-<section class=" h-[20rem] w-full bg-auto bg-emerald-400">
-
-   <h1 class="pt-14 pb-14 text-center text-lg font-barlow">Sunnyside</h1>
-
-  <div class="flex flex-row justify-center gap-[12rem] lg:gap-[5rem] pb-8">
-    <p> About</p>
-    <p> Services</p>
-    <p> Projects</p> 
- </div>
-  
- <div class="flex flex-row justify-center gap-[3rem] pt-8">
-   <img src="./images/icon-facebook.svg" alt="">
-   <img src="./images/icon-instagram.svg" alt="">
-   <img src="./images/icon-twitter.svg" alt="">
-   <img src="./images/icon-pinterest.svg" alt="">
- </div>
+  <section class="flex flex-col justify-center items-center lg:flex-row">
+    <img class="lg:w-[50%] pt-11 lg:pt-0" src="./images/mobile/image-stand-out.jpg" alt="Stand out to the right audience">
+    <div class="w-[50%] flex flex-col items-center justify-center gap-14 lg:pt-0"> 
+      <h1 class="text-6xl lg:text-3xl text-indigo-900 text-center pt-11 font-fraunces">Stand out to the right audience</h1>
+      <p class="text-center text-3xl lg:text-xl text-gray-600 w-96">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+      <a href="#" class="text-lg text-indigo-900 border-b-red-800 border-b-4 mb-[5rem]">Learn more</a> 
+    </div>
+  </section>
 
 
+  <section class="flex flex-col justify-center items-center lg:flex-row lg:gap-0">
+    <div class="lg:w-[50%] w-full bg-cherry bg-no-repeat h-[60rem] bg-cover bg-center">
+        <div class="flex flex-col items-center justify-center gap-14 pt-[40rem]">
+            <h1 class="text-6xl text-emerald-800 text-center pt-11 font-fraunces">Graphic design</h1>
+            <p class="text-emerald-800 text-center w-96">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        </div>
+    </div>
+    <div class="lg:w-[50%] w-full bg-fruit bg-no-repeat h-[60rem] bg-cover bg-center">
+        <div class="flex flex-col items-center justify-center gap-14">
+            <h1 class="text-6xl text-sky-900 pt-[45rem] lg:pt-[43rem] font-fraunces">Photography</h1>
+            <p class="text-sky-900 text-center w-96">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </div>
+    </div>
 </section>
 
 
+  <section class="flex flex-col items-center justify-center">
+    <p class="text-gray-500 text-lg pt-11 pb-11 font-barlow">CLIENT TESTIMONIALS</p> 
+    <div class="lg:flex lg:flex-row lg:items-center lg:justify-between lg:gap-[7.2rem]">
+      <div class="flex flex-col items-center justify-center pt-10">
+        <img class="rounded-full h-24 w-24" src="./images/image-emily.jpg" alt="Emily R.">
+        <p class="pt-11 pb-3 text-center w-[26rem] lg:w-[14rem]">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+        <p class="pt-11 pb-2 text-lg text-indigo-900 font-fraunces">Emily R.</p>
+        <p class="pb-16">Marketing Director</p>
+      </div>
+      <div class="flex flex-col items-center justify-center pt-10">
+        <img class="rounded-full h-24 w-24" src="./images/image-thomas.jpg" alt="Thomas S.">
+        <p class="pt-11 pb-3 text-center w-[26rem] lg:w-[14rem]">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+        <p class="pt-11 pb-2 text-lg text-indigo-900 font-fraunces">Thomas S.</p>
+        <p class="pb-16">Chief Operating Officer</p>
+      </div>
+      <div class="flex flex-col items-center justify-center pt-10">
+        <img class="rounded-full h-24 w-24" src="./images/image-jennie.jpg" alt="Jennie F.">
+        <p class="pt-11 pb-3 text-center w-[26rem] lg:w-[14rem]">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+        <p class="pt-11 pb-2 text-lg text-indigo-900 font-fraunces">Jennie F.</p>
+        <p class="pb-16">Business Owner</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="lg:flex lg:flex-row lg:items-center">
+    <div class="flex flex-row lg:w-[50%]">
+      <img class="w-3/6" src="../images/mobile/image-gallery-milkbottles.jpg" alt="Gallery image of milk bottles">
+      <img class="w-3/6" src="../images/mobile/image-gallery-orange.jpg" alt="Gallery image of an orange">
+    </div>
+    <div class="flex flex-row lg:w-[50%]">
+      <img class="w-3/6" src="../images/mobile/image-gallery-cone.jpg" alt="Gallery image of a cone">
+      <img class="w-3/6" src="../images/mobile/image-gallery-sugar-cubes.jpg" alt="Gallery image of sugar cubes">
+    </div>
+  </section>
+
+  <footer class="h-[20rem] w-full bg-auto bg-emerald-400">
+    <h1 class="pt-14 pb-14 text-center text-lg font-barlow">Sunnyside</h1>
+    <div class="flex flex-row justify-center gap-[12rem] lg:gap-[5rem] pb-8">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Projects</a> 
+    </div>
+    <div class="flex flex-row justify-center gap-[3rem] pt-8">
+      <img src="./images/icon-facebook.svg" alt="Facebook">
+      <img src="./images/icon-instagram.svg" alt="Instagram">
+      <img src="./images/icon-twitter.svg" alt="Twitter">
+      <img src="./images/icon-pinterest.svg" alt="Pinterest">
+    </div>
+  </footer>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
